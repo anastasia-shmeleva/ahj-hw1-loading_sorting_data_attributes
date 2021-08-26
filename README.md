@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/e6sygc0cybclfxlq?svg=true)](https://ci.appveyor.com/project/anastasia-shmeleva/ahj-hw1-loading-sorting-data-attributes)
