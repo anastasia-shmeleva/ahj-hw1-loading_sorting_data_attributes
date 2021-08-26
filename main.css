@@ -1,0 +1,26 @@
+body {
+    width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+	content: "\2191"
+}
+
+th.sorted[data-order="1"]::after {
+	content: "\2193"
+}
+
